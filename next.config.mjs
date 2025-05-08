@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -10,7 +14,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: '/webpage_demo',
+  basePath: isProd ? '/webpage_demo' : '',
+  assetPrefix: isProd ? '/webpage_demo/' : '',
   distDir: 'out',
 }
 
