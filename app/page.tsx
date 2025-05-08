@@ -38,7 +38,7 @@ export default function Home() {
         >
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/public/images/openshot.png"
+              src="public/images/openshot.png"
               alt="Openshot"
               width={120}
               height={40}
