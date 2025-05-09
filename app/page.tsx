@@ -38,7 +38,7 @@ export default function Home() {
         >
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
+              src={`/${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
               alt="Openshot"
               width={120}
               height={40}
@@ -188,7 +188,7 @@ export default function Home() {
               <div className="w-3 h-3 rounded-full bg-green-500"></div>
             </div>
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/UI.png`}
+              src={`/${process.env.NEXT_PUBLIC_BASE_PATH}/images/UI.png`}
               alt="ShotAI 产品界面"
               width={1280}
               height={720}
@@ -240,7 +240,7 @@ export default function Home() {
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
-            poster={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/demo.png`}
+            poster={`/${process.env.NEXT_PUBLIC_BASE_PATH}/images/demo.png`}
             controls
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
@@ -574,7 +574,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
+                src={`/${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
                 alt="Openshot"
                 width={100}
                 height={30}
