@@ -246,7 +246,7 @@ export default function Home() {
             onPause={() => setIsPlaying(false)}
             style={{ zIndex: 0 }}
           >
-            <source src="/videos/demo.png" type="video/mp4" />
+            <source src="/videos/demo.mp4" type="video/mp4" />
             您的浏览器不支持视频标签。
           </video>
         </div>
