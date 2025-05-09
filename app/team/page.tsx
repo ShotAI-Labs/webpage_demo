@@ -21,7 +21,7 @@ export default function TeamPage() {
         >
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/openshot.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
               alt="开源智境"
               width={120}
               height={40}
@@ -68,7 +68,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/xianfeng.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/xianfeng.png`}
                   alt="吴显峰 - 创始人兼CTO"
                   width={300}
                   height={400}
@@ -93,7 +93,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/human.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/human.png`}
                   alt="汪童 - 联合创始人兼CEO"
                   width={300}
                   height={400}
@@ -115,7 +115,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/xianzu.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/xianzu.png`}
                   alt="吴显祖 - 联合创始人"
                   width={300}
                   height={400}
@@ -140,7 +140,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/yexin.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/yexin.png`}
                   alt="刘业鑫 - AI负责人"
                   width={300}
                   height={400}
@@ -164,7 +164,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/yajing.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/yajing.png`}
                   alt="白亚靖 - AI 负责人"
                   width={300}
                   height={400}
@@ -187,7 +187,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/human.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/human.png`}
                   alt="Granine Huang - 智能体负责人"
                   width={300}
                   height={400}
@@ -210,7 +210,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/human.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/human.png`}
                   alt="Peter Ni - 大模型负责人"
                   width={300}
                   height={400}
@@ -234,7 +234,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/harry.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/harry.png`}
                   alt="Harry Yang - 科研顾问"
                   width={300}
                   height={400}
@@ -258,7 +258,7 @@ export default function TeamPage() {
             <div className="bg-card/50 rounded-xl border border-primary/10 overflow-hidden group">
               <div className="h-64 bg-gradient-to-br from-purple-600/20 to-blue-500/20 relative">
                 <Image
-                  src="/images/zhongyuan.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/zhongyuan.png`}
                   alt="赖重远 - 科研顾问"
                   width={300}
                   height={400}
@@ -285,7 +285,7 @@ export default function TeamPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <Image
-                src="/images/openshot.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/openshot.png`}
                 alt="开源智境"
                 width={100}
                 height={30}
